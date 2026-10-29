@@ -1,0 +1,33 @@
+{
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "cryptography": "50.0.2",
+  "gpu": "Tesla T4",
+  "cpu": "x86_64",
+  "cpu_count": 2,
+  "device_threads": 2,
+  "dataset": "starmpcc/Asclepius-Synthetic-Clinical-Notes",
+  "n_patients": 30,
+  "seeds": [
+    0
+  ],
+  "models": {
+    "Qwen2.5-0.5B": "Qwen/Qwen2.5-0.5B-Instruct"
+  },
+  "embedder": "BAAI/bge-small-en-v1.5",
+  "top_k": 4,
+  "chunk_words": 80,
+  "p_consent": 0.5,
+  "p_poison": 0.2,
+  "max_new_tokens": 96,
+  "device_new_tokens": 64,
+  "queries_per_seed": {
+    "UTIL": 30,
+    "CROSS": 30,
+    "SENS_OK": 26,
+    "SENS_DENY": 24,
+    "INJ_DIRECT": 24,
+    "INJ_INDIRECT": 6
+  }
+}

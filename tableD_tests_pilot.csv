@@ -1,0 +1,5 @@
+model,baseline,privacy_queries,baseline_leaks_only,CA-RAG_leaks_only,p_mcnemar,rougeL_diff_CA_minus_base,p_wilcoxon
+Qwen2.5-0.5B,Plain RAG,84,44,0,1.1368683772161603e-13,0.0294,0.17024139590961385
+Qwen2.5-0.5B,Prompt guard,84,30,0,1.862645149230957e-09,0.0344,0.13581018337602035
+Qwen2.5-0.5B,Post-filter,84,2,0,0.5,0.0484,0.04804479976978151
+Qwen2.5-0.5B,CA-RAG w/o output guard,84,0,0,1.0,0.0,

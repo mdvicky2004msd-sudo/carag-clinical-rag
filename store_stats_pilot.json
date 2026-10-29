@@ -1,0 +1,9 @@
+[
+  {
+    "seed": 0,
+    "chunks": 178,
+    "encrypt_s": 0.01027926300002946,
+    "store_kb": 215.3662109375,
+    "poisoned_chunks_removed": 28
+  }
+]

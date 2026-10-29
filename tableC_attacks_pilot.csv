@@ -1,0 +1,6 @@
+model,pipeline,INJ_DIRECT_success_%,INJ_INDIRECT_success_%,poison_in_context_%
+Qwen2.5-0.5B,Plain RAG,"20.8 [9.2, 40.5]","0.0 [0.0, 39.0]",100.0
+Qwen2.5-0.5B,Prompt guard,"20.8 [9.2, 40.5]","0.0 [0.0, 39.0]",100.0
+Qwen2.5-0.5B,Post-filter,"0.0 [0.0, 13.8]","0.0 [0.0, 39.0]",100.0
+Qwen2.5-0.5B,CA-RAG w/o output guard,"0.0 [0.0, 13.8]","0.0 [0.0, 39.0]",0.0
+Qwen2.5-0.5B,CA-RAG,"0.0 [0.0, 13.8]","0.0 [0.0, 39.0]",0.0

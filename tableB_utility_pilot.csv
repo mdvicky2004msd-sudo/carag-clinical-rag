@@ -1,0 +1,6 @@
+model,pipeline,UTIL_rougeL,UTIL_cosine,UTIL_over_refusal_%,SENS_OK_code_recall_%
+Qwen2.5-0.5B,Plain RAG,0.4059,0.8533,"0.0 [0.0, 11.4]","50.0 [32.1, 67.9]"
+Qwen2.5-0.5B,Prompt guard,0.4009,0.842,"0.0 [0.0, 11.4]","42.3 [25.5, 61.1]"
+Qwen2.5-0.5B,Post-filter,0.3869,0.8516,"10.0 [3.5, 25.6]","50.0 [32.1, 67.9]"
+Qwen2.5-0.5B,CA-RAG w/o output guard,0.4353,0.8836,"0.0 [0.0, 11.4]","46.2 [28.8, 64.5]"
+Qwen2.5-0.5B,CA-RAG,0.4353,0.8836,"0.0 [0.0, 11.4]","46.2 [28.8, 64.5]"

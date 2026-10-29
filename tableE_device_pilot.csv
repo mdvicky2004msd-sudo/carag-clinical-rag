@@ -1,0 +1,3 @@
+model,precision,model_mb,median_total_s,p90_total_s,median_generate_s,tokens_per_s,decrypt_ms,retrieve_ms,embed_ms,rss_mb,rougeL,n
+Qwen2.5-0.5B,fp32,1884.688,16.023,17.23,15.962,3.827,0.163,0.479,58.175,4050.566,0.367,3
+Qwen2.5-0.5B,int8,990.89,4.768,7.893,4.677,3.412,0.167,0.456,66.434,6060.016,0.151,3
